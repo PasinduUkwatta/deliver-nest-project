@@ -6,9 +6,9 @@ const config: TypeOrmModuleOptions = {
   port: 3306,
   username: 'pasindu',
   password: 'pansilu@1996',
-  database: 'nestjs_db', // Replace with your database name
+  database: 'nestjs_db',
   entities: [__dirname + '/**/*.entity{.ts,.js}'],
-  synchronize: true, // set to false in production
+  synchronize: true,
 };
 
 export default config;

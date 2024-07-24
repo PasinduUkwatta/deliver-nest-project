@@ -15,15 +15,5 @@ export class JokeController {
     }
   }
 
-  // @Post('random')
-  // async getRandomJoke(@Body('jokeType') jokeType?: string) {
-  //   try {
-  //     const randomJoke = await this.jokeService.getRandomJoke(jokeType);
-  //     return randomJoke;
-  //   } catch (error) {
-  //     return { error: error.message };
-  //   }
-  // }
-
 }
 

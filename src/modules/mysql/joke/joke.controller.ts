@@ -1,10 +1,8 @@
-// mysql/joke/joke.controller.ts
-
 import { Controller, Post, Body } from '@nestjs/common';
 import { JokeService } from './joke.service';
 import { Joke } from "./joke.entity";
 
-@Controller('api/jokes') // Adjust the route prefix if necessary
+@Controller('api/jokes')
 export class JokeController {
   constructor(private readonly jokeService: JokeService) {}
 
